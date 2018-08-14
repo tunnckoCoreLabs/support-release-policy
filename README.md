@@ -1,14 +1,17 @@
 # Support & Release Policy
 Supported Node.js release lines and how we integrate seamlessly with the Node.js's Release Cycle.
 
-## General Versioning Terminology
+## Node.js's Versioning Terminology
+For more info consider reading the [@NodeSource](https://github.com/nodesource) article: [Understanding How Node.js Release Lines Work](https://nodesource.com/blog/understanding-how-node-js-release-lines-work/)
+
+### General Versioning Terminology
 - **Release Line:** A release line is defined as any major version of Node.js. For example, Node.js 6, Node.js 7, Node.js 8, Node.js 9, and so on are all release lines.
 - **SemVer:** SemVer stands for Semantic Versioning, and is the versioning mechanism that both the Node.js releases and the majority of the Node.js ecosystem use for versioning.
 **Major Release:** Major Releases are for incompatible API changes, from version to version. Major releases can also include changes that would normally be included as Minor or Patch releases.
 - **Minor Release:** Minor Releases include backward compatible functionality changes. Minor releases can also include changes that would normally be included as Patch releases.
 - **Patch Release:** Patch releases include non-breaking bug fixes and security patches.
 
-## Release Terminology
+### Release Terminology
 - **Current:** Current is a term used to refer to the most recent Node.js release line (yes, that's singular) that will be supported and open to non-trivial changes until the next major release.
 - **LTS:** LTS is an acronym for Long-Term Support, and is applied to release lines (yes, that's plural) that will be supported and maintained by the Node.js project for an extended period of time.
   + **Active:** An Active LTS release line is one that is being actively maintained and upgraded, including backporting newer non-breaking features, functionality, and improvements, addressing bugs, and patching security vulnerabilities.
@@ -16,7 +19,7 @@ Supported Node.js release lines and how we integrate seamlessly with the Node.js
 - **EOL:** EOL is an acronym for End of Life. Node.js versions that are EOL are no longer maintained, and will not be patched with fixes for bugs or known security vulnerabilities.
 Cutting/Shipping: Cutting and shipping are both terms used to refer to the actual release of any given version (major, minor, or patch) of Node.js. These terms aren't specific to Node.js but are used relatively often by the Node.js contributor base.
 
-## Support
+## Our Support
 
 We only support latest 2 _even-numbered_ Node.js release lines, until they goes into Maintenance mode _or_ until the Node.js team cut new even-numbered Current release. When that happen we drop support for the release line that gone on maintenance mode, which means two things: 
 
