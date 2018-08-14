@@ -21,7 +21,7 @@ Cutting/Shipping: Cutting and shipping are both terms used to refer to the actua
 
 ## Our Support
 
-We only support latest 2 _even-numbered_ Node.js release lines, until they goes into Maintenance mode _or_ until the Node.js team cut new even-numbered Current release. When that happen we drop support for the release line that gone on maintenance mode, which means two things: 
+We only support latest 2 _even-numbered_ Node.js release lines, until they goes into Maintenance mode _or_ until the Node.js team cut new even-numbered Current release. When that happen we drop support for the release line that gone on maintenance mode, which means 3 things: 
 
 1. we bump major release of a certain package,
 2. remove that Node.js release line from CI testing, and
