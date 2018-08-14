@@ -44,4 +44,4 @@ Through that month (april 2020) there will happen three important events:
 2. Node.js team will ship new even-numbered release which will become the new Current (v14-Current)
 3. Once both of above happen, we drop support for the v10-LTS release as described previously
 
-So it's recommended by both us and the community to migrate to at least the lastest Active LTS Node.js release, which by that time will be v12. Actually, you are almost forced to do that if you don't want to use the `--ignore-engines` option. And the main reason _why you are forced_, is that that by that time you already had 6 months of **two** Active LTS releases in which you should have tried the newest one and started migrating small parts to it.
+So it's recommended by both us and the community to migrate to at least the lastest Active LTS Node.js release, which by that time will be v12. Actually, you are almost forced to do that if you don't want to use the `--ignore-engines` option. And the main reason _why you are forced_, is this: by that time you already had 6 months of **two** Active LTS releases in which you should have tried the newest one and started migrating small parts to it.
