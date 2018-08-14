@@ -2,7 +2,7 @@
 Supported Node.js release lines and how we integrate seamlessly with the Node.js's Release Cycle.
 
 ## Node.js's Versioning Terminology
-For more info consider reading the [@NodeSource](https://github.com/nodesource) article: [Understanding How Node.js Release Lines Work](https://nodesource.com/blog/understanding-how-node-js-release-lines-work/)
+For more info consider reading the [@NodeSource](https://github.com/nodesource) article: [Understanding How Node.js Release Lines Work](https://nodesource.com/blog/understanding-how-node-js-release-lines-work/) and the Node.js's https://github.com/nodejs/Release page.
 
 ### General Versioning Terminology
 - **Release Line:** A release line is defined as any major version of Node.js. For example, Node.js 6, Node.js 7, Node.js 8, Node.js 9, and so on are all release lines.
