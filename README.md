@@ -41,7 +41,7 @@ Lets say we are in May 2019. We have Node.js v10 Active LTS release since Octobe
 Through that month (april 2020) there will happen three important events: 
 
 1. Node.js team will move the Current (v12) into Active LTS mode (v12-LTS)
-2. Node.js team will release new even-numbered release which will become the new Current (v14-Current)
+2. Node.js team will ship new even-numbered release which will become the new Current (v14-Current)
 3. Once both of above happen, we drop support for the v10-LTS release as described previously
 
 So it's recommended by both us and the community to migrate to at least the lastest Active LTS Node.js release, which by that time will be v12. 
