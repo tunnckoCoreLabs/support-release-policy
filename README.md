@@ -13,7 +13,7 @@ How we do that? We forcing it by using [package.json `engines.node`](https://doc
 ![Node.js LTS Release Schedule](https://images.ctfassets.net/hspc7zpa5cvq/7o3kha5RgAGCImaw84yiEY/19957b9f448b1431e9664ed94e996d74/nodejs-lts-release-schedule_preview.png)
 
 
-Consider the following example and above graph, which starts from October 2018. 
+Consider the following example and above graph, which lets say starts from October 2018. 
 
 Lets say we are in May 2019. We have Node.js v10 Active LTS release since October 2018, and we have v12 Current release since April 2019. We will support both versions, until April 2020.
 
